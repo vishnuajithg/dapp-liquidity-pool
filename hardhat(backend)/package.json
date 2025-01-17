@@ -1,0 +1,24 @@
+{
+  "name": "dapp-liquidity-pool",
+  "version": "1.0.0",
+  "description": "mkdir dapp-liquidity-pool cd dapp-liquidity-pool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "hardhat": "^2.22.18",
+    "hardhat-deploy": "^0.14.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.9",
+    "@nomicfoundation/ignition-core": "^0.15.9",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  }
+}
